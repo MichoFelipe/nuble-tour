@@ -1,0 +1,25 @@
+<!-- -->
+<ion-header>
+  <ion-navbar hideBackButton color="primary">
+    <ion-title>
+      <span ion-text>Ñuble Travel</span>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page" >
+    <ion-grid>
+      <ion-row>
+        <ion-col *ngFor="let trip of trips" col-6 no-padding tappable (click)="viewDetail(trip.id)" >
+          <ion-card>
+            <img src="{{trip.thumb}}"/>
+            <ion-card-content>
+                <p>
+                  {{ trip.name }}
+                </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+</ion-content>

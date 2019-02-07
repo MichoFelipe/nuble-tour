@@ -1,0 +1,281 @@
+export let TRIPS = [
+  {
+    id: 1,
+    name: "Gastronomía",
+    price_adult: 60,
+    price_child: 30,
+    time: "12h",
+    free_cancellation: 1,
+    electric_voucher: 1,
+    sub_name: "English Commentary Tour",
+    thumb: "assets/img/trip/thumb/Home-Gastronomia.jpg",
+    description: "From sexy Ipanema and Copacabana, to more secluded and slightly lesser-known stretches of sand, like Prainha Beach, Brazil's Rio de Janeiro is best known for its beaches. Grab your sunscreen and Brazilian bikinis and head to the sunny shores of Rio's best beaches.",
+    location: "Rio de Janeiro, Brazil",
+    images: [
+      "assets/img/trip/thumb/trip_5.jpg",
+      "assets/img/trip/thumb/trip_6.jpg",
+      "assets/img/trip/thumb/trip_7.jpg",
+      "assets/img/trip/thumb/trip_8.jpg",
+    ],
+    highlights: [
+      "Numerous kiosks",
+      "First in a string of Atlantic Ocean-facing beaches",
+      "Sand is flanked by mountains in the background",
+      "Swing in the turquoise waters",
+      "Water Sports",
+    ], category: [
+      {
+        id: 1,
+        name: "Productos",
+        thumb: "assets/img/trip/thumb/Gastronomia-Productos.jpg",
+        has_subcategory : "true",
+        sub_category : [
+          {
+            id: 1,
+            name: "Chumbeque",
+            description: "Dulce típico de la zona norte de Chile, elaborado a base de manteca, harina y capas.",
+            thumb: "assets/img/trip/thumb/Gastronomia-Productos-chumbeque.jpg",
+            thumb_square: "assets/img/trip/thumb/Gastronomia-Recetas-EmpanadaDeMariscos-300x300.jpg"
+          },
+          {
+            id: 2,
+            name: "Choriqueso",
+            description: "Esta pequeña piesa de pan con relleno de pasta de chorizo y queso derretido.",
+            thumb: "assets/img/trip/thumb/Gastronomia-Productos-choriqueso.jpg",
+            thumb_square: "assets/img/trip/thumb/Gastronomia-Recetas-EmpanadaDeMariscos-300x300.jpg"
+          }
+        ]
+      },
+      {
+        id: 2,
+        name: "Recetas",
+        thumb: "assets/img/trip/thumb/Gastronomia-Recetas.jpg",
+        has_subcategory : "true",
+        sub_category : [
+          {
+            id: 1,
+            name: "Alfajores de Maicena",
+            description: "Estos alfajores son muy populares en Chile y Argentina.",
+            thumb: "assets/img/trip/thumb/Gastronomia-Recetas-AlfajoresDeMaicena.jpg",
+            thumb_square: "assets/img/trip/thumb/Gastronomia-Recetas-AlfajoresDeMaicena-300x300.jpg",
+            detail : [
+              "125 grs. de margarina",
+              "150 grs. de azúcar granulada",
+              "3 yemas",
+              "1 cucharadita de coñac",
+              "2 tazas de harina",
+              "1 taza de maicena",
+            ],
+            detail_more : [
+              "Precalentar  el horno a 350°F (180°C). Unir la margarina, azúcar, yemas. Luego agregar los ingredientes secos.",
+              "Paso 2",
+              "Paso 3",
+            ],
+            price_adult: 60,
+            price_child: 30,
+            time: "12h",
+            free_cancellation: 1,
+            electric_voucher: 1,
+            sub_name: "English Commentary Tour",
+            location: "Rio de Janeiro, Brazil",
+            images: [
+              "assets/img/trip/thumb/trip_5.jpg",
+              "assets/img/trip/thumb/trip_6.jpg",
+              "assets/img/trip/thumb/trip_7.jpg",
+              "assets/img/trip/thumb/trip_8.jpg",
+            ],
+            highlights: [
+              "Numerous kiosks",
+              "First in a string of Atlantic Ocean-facing beaches",
+              "Sand is flanked by mountains in the background",
+              "Swing in the turquoise waters",
+              "Water Sports",
+            ]
+          },
+          {
+            id: 2,
+            name: "Empanada de Mariscos",
+            description: "Esta empanada está dentro de las clásicas chilenas.",
+            thumb: "assets/img/trip/thumb/Gastronomia-Recetas-EmpanadaDeMariscos.jpg",
+            thumb_square: "assets/img/trip/thumb/Gastronomia-Recetas-EmpanadaDeMariscos-300x300.jpg"
+          }
+        ]
+      },
+      {
+        id: 3,
+        name: "Eventos",
+        thumb: "assets/img/trip/thumb/Gastronomia-Eventos.jpg",
+        has_subcategory : "true",
+      }
+    ]
+  },
+  {
+    id: 2,
+    name: "Destinos",
+    price_adult: 90,
+    price_child: 45,
+    time: "4h",
+    free_cancellation: 1,
+    electric_voucher: 1,
+    sub_name: "English Commentary Tour",
+    thumb: "assets/img/trip/thumb/Home-Destinos.jpg",
+    description: "From sexy Ipanema and Copacabana, to more secluded and slightly lesser-known stretches of sand, like Prainha Beach, Brazil's Rio de Janeiro is best known for its beaches. Grab your sunscreen and Brazilian bikinis and head to the sunny shores of Rio's best beaches.",
+    location: "Rio de Janeiro, Brazil",
+    images: [],
+    highlights: [],
+    category: [
+      {
+        id: 1,
+        name: "City Tour",
+        thumb: "assets/img/trip/thumb/Home-Destinos.jpg",
+        has_subcategory : "false",
+        description: "Fundada en 1580 por el gobernador don Martín Ruiz de Gamboa, la ciudad fue destruida y reconstruida en diversas oportunidades hasta que, luego del terremoto de 1835, se decidió volver a levantarla donde se halla actualmente. Hoy, incluso después del fatídico terremoto de 1960, Chillán se halla hermosa a los ojos de quien la mire.",
+        latitude: -36.60626179999999,
+        longitud: -72.1023351,
+        detail : [
+          "125 grs. de margarina",
+          "150 grs. de azúcar granulada",
+          "3 yemas",
+          "1 cucharadita de coñac",
+          "2 tazas de harina",
+          "1 taza de maicena",
+        ],
+        detail_more : [
+          "Precalentar  el horno a 350°F (180°C). Unir la margarina, azúcar, yemas. Luego agregar los ingredientes secos.",
+          "Paso 2",
+          "Paso 3",
+        ],
+        price_adult: 60,
+        price_child: 30,
+        time: "12h",
+        free_cancellation: 1,
+        electric_voucher: 1,
+        sub_name: "English Commentary Tour",
+        location: "Rio de Janeiro, Brazil",
+        images: [
+          "assets/img/trip/thumb/trip_5.jpg",
+          "assets/img/trip/thumb/trip_6.jpg",
+          "assets/img/trip/thumb/trip_7.jpg",
+          "assets/img/trip/thumb/trip_8.jpg",
+        ],
+        highlights: [
+          "Numerous kiosks",
+          "First in a string of Atlantic Ocean-facing beaches",
+          "Sand is flanked by mountains in the background",
+          "Swing in the turquoise waters",
+          "Water Sports",
+        ],
+        sub_category : []
+      },
+      {
+        id: 2,
+        name: "Termas de Chillán",
+        thumb: "assets/img/trip/thumb/Destinos-termaschillan.jpg",
+        has_subcategory : "false",
+        description: "Antes de la existencia del Gran Hotel Termas de Chillán, existían otros hoteles de importancia, como el Pirigallo y el Shangai-lá, además de otros condominios que se encargaron durante años de acoger a los miles de visitantes que se acercaban hasta allí. <br>Si bien el lugar es un destino turístico desde hace varias décadas, la presencia majestuosa de esta construcción se ha establecido como un atractivo en sí mismo.",
+        latitude: -36.9093858,
+        longitud: -71.41845649999999,
+        detail : [
+          "125 grs. de margarina",
+          "150 grs. de azúcar granulada",
+          "3 yemas",
+          "1 cucharadita de coñac",
+          "2 tazas de harina",
+          "1 taza de maicena",
+        ],
+        detail_more : [
+          "Precalentar  el horno a 350°F (180°C). Unir la margarina, azúcar, yemas. Luego agregar los ingredientes secos.",
+          "Paso 2",
+          "Paso 3",
+        ],
+        price_adult: 60,
+        price_child: 30,
+        time: "12h",
+        free_cancellation: 1,
+        electric_voucher: 1,
+        sub_name: "English Commentary Tour",
+        location: "Rio de Janeiro, Brazil",
+        images: [
+          "assets/img/trip/thumb/trip_5.jpg",
+          "assets/img/trip/thumb/trip_6.jpg",
+          "assets/img/trip/thumb/trip_7.jpg",
+          "assets/img/trip/thumb/trip_8.jpg",
+        ],
+        highlights: [
+          "Numerous kiosks",
+          "First in a string of Atlantic Ocean-facing beaches",
+          "Sand is flanked by mountains in the background",
+          "Swing in the turquoise waters",
+          "Water Sports",
+        ],
+        sub_category : []
+      },
+      {
+        id: 3,
+        name: "Eventos",
+        thumb: "assets/img/trip/thumb/Gastronomia-Eventos.jpg",
+        has_subcategory : "false",
+      }
+    ]
+  },
+  {
+    id: 3,
+    name: "Rutas",
+    price_adult: 30,
+    price_child: 15,
+    time: "6h",
+    free_cancellation: 1,
+    electric_voucher: 1,
+    sub_name: "English Commentary Tour",
+    thumb: "assets/img/trip/thumb/Home-Rutas.jpg",
+    description: "From sexy Ipanema and Copacabana, to more secluded and slightly lesser-known stretches of sand, like Prainha Beach, Brazil's Rio de Janeiro is best known for its beaches. Grab your sunscreen and Brazilian bikinis and head to the sunny shores of Rio's best beaches.",
+    location: "São Paulo, Brazil",
+    images: [],
+    highlights: []
+  },
+  {
+    id: 4,
+    name: "Actividades",
+    price_adult: 500,
+    price_child: 250,
+    time: "24h",
+    free_cancellation: 1,
+    electric_voucher: 1,
+    sub_name: "English Commentary Tour",
+    thumb: "assets/img/trip/thumb/Home-Actividades.jpg",
+    description: "From sexy Ipanema and Copacabana, to more secluded and slightly lesser-known stretches of sand, like Prainha Beach, Brazil's Rio de Janeiro is best known for its beaches. Grab your sunscreen and Brazilian bikinis and head to the sunny shores of Rio's best beaches.",
+    location: "Fernando de Noronha, Brazil",
+    images: [],
+    highlights: []
+  },
+  {
+    id: 5,
+    name: "Útil",
+    price_adult: 500,
+    price_child: 250,
+    time: "24h",
+    free_cancellation: 1,
+    electric_voucher: 1,
+    sub_name: "English Commentary Tour",
+    thumb: "assets/img/trip/thumb/Home-Util.jpg",
+    description: "From sexy Ipanema and Copacabana, to more secluded and slightly lesser-known stretches of sand, like Prainha Beach, Brazil's Rio de Janeiro is best known for its beaches. Grab your sunscreen and Brazilian bikinis and head to the sunny shores of Rio's best beaches.",
+    location: "Fernando de Noronha, Brazil",
+    images: [],
+    highlights: []
+  },
+  {
+    id: 6,
+    name: "Favorito",
+    price_adult: 500,
+    price_child: 250,
+    time: "24h",
+    free_cancellation: 1,
+    electric_voucher: 1,
+    sub_name: "English Commentary Tour",
+    thumb: "assets/img/trip/thumb/Home-Favoritos.jpg",
+    description: "From sexy Ipanema and Copacabana, to more secluded and slightly lesser-known stretches of sand, like Prainha Beach, Brazil's Rio de Janeiro is best known for its beaches. Grab your sunscreen and Brazilian bikinis and head to the sunny shores of Rio's best beaches.",
+    location: "Fernando de Noronha, Brazil",
+    images: [],
+    highlights: []
+  }
+]

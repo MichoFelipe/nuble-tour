@@ -1,0 +1,25 @@
+<!-- -->
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      <span ion-text>{{title}}</span>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- 
+<ion-content padding class="trips detail-bg">
+-->
+<ion-content>
+  <ion-list>
+      <ion-item-sliding *ngFor="let trip of subcategory_list" (click)="viewDetail(trip.id)" >
+        <ion-item style="padding-left: 0px;" >
+          <ion-thumbnail style="margin-top: 0px; margin-bottom: 0px; margin-right: 0px;" item-left>
+            <img src="{{trip.thumb}}"  style="float:left;width: 140px;height: 110px;" >
+          </ion-thumbnail>
+          <h2>{{ trip.name }}</h2>
+          <p>{{ trip.description }}</p>
+        </ion-item>
+      </ion-item-sliding>
+  </ion-list>
+</ion-content>
